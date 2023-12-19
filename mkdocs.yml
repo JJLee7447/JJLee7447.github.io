@@ -15,34 +15,33 @@ nav:
         - chapter 02: ./OS/Hand rub OS/01 System boot/chapter 02.md
         - chapter 03: ./OS/Hand rub OS/01 System boot/chapter 03.md
         - chapter 04: ./OS/Hand rub OS/01 System boot/chapter 04.md
-# theme:
-#   name: material
-#   palette:
-#     - scheme: default # 日间模式
-#       primary: light green # 上方的
-#       accent: orange # 链接等可交互元件的高亮色
-#       toggle:
-#         icon: material/weather-night # 图标
-#         name: 切换至夜间模式 # 鼠标悬浮提示
-#     - scheme: slate # 夜间模式
-#       primary: indigo
-#       accent: orange
-#       toggle:
-#         icon: material/weather-sunny
-#         name: 切换至日间模式
-# 
-#   language: zh
+theme:
+  name: material
+  palette:
+    - scheme: default # 日间模式
+      primary: light green # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
+  language: zh
 
-  # markdown_extensions:
-  #   - pymdownx.arithmatex: # 数学公式支持
-  #       generic: true
-  #   - attr_list # 给图片后面添加{width="300"}设置大小
-  #   - toc:
-  #       permalink: true # 固定标题位置为当前位置
-  #   - pymdownx.highlight: # 代码块高亮
-  #       # linenums: true # 显示行号
-  #       # auto_title: true # 显示编程语言名称
-  #   - pymdownx.superfences # 代码块高亮插件
-  #   - meta # 支持Markdown文件上方自定义标题标签等
-  #   - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
-  #   - pymdownx.details # admonition需要
+markdown_extensions:
+  - pymdownx.arithmatex: # 数学公式支持
+      generic: true
+  - attr_list # 给图片后面添加{width="300"}设置大小
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      # linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.superfences # 代码块高亮插件
+  - meta # 支持Markdown文件上方自定义标题标签等
+  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
+  - pymdownx.details # admonition需要
