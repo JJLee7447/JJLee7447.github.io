@@ -3,11 +3,23 @@ site_url: https://JJLee7447.github.io
 site_author: AiLee
 site_description: AiLee's Blog
 
+nav:
+  - Home: index.md
+
+  - 操作系统: 
+    - ./OS/index.md
+    - 手搓一个简单的操作系统: 
+      - System boot: 
+        - chapter 00: ./OS/Hand rub OS/01 System boot/chapter 00.md
+        - chapter 01: ./OS/Hand rub OS/01 System boot/chapter 01.md
+        - chapter 02: ./OS/Hand rub OS/01 System boot/chapter 02.md
+        - chapter 03: ./OS/Hand rub OS/01 System boot/chapter 03.md
+        - chapter 04: ./OS/Hand rub OS/01 System boot/chapter 04.md
 theme:
   name: material
   palette:
     - scheme: default # 日间模式
-      primary: indigo # 上方的
+      primary: light green # 上方的
       accent: orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
@@ -18,3 +30,19 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
+
+  language: zh
+
+  markdown_extensions:
+    - pymdownx.arithmatex: # 数学公式支持
+        generic: true
+    - attr_list # 给图片后面添加{width="300"}设置大小
+    - toc:
+        permalink: true # 固定标题位置为当前位置
+    - pymdownx.highlight: # 代码块高亮
+        # linenums: true # 显示行号
+        # auto_title: true # 显示编程语言名称
+    - pymdownx.superfences # 代码块高亮插件
+    - meta # 支持Markdown文件上方自定义标题标签等
+    - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
+    - pymdownx.details # admonition需要
