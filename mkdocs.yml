@@ -6,6 +6,9 @@ site_description: AiLee's Blog
 nav:
   - Home: index.md
 
+  - Blog:
+    - slidev: ./Blog/slidev.md
+
   - 操作系统: 
     - ./OS/index.md
     - 手搓一个简单的操作系统: 
@@ -15,6 +18,8 @@ nav:
         - chapter 02: ./OS/Hand rub OS/01 System boot/chapter 02.md
         - chapter 03: ./OS/Hand rub OS/01 System boot/chapter 03.md
         - chapter 04: ./OS/Hand rub OS/01 System boot/chapter 04.md
+  - 演稿:
+    - 操作系统实践探究 ———— 系统引导: ./Lecture/操作系统实践探究.md
 theme:
   name: material
   palette:
