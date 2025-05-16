@@ -5,30 +5,17 @@ site_description: AiLee's Blog
 
 nav:
   - Home: index.md
-  - 操作系统: 
-    - ./OS/index.md
-    - 手搓一个简单的操作系统: 
-      - System boot: 
-        - chapter 00: ./OS/Hand rub OS/01 System boot/chapter 00.md
-        - chapter 01: ./OS/Hand rub OS/01 System boot/chapter 01.md
-        - chapter 02: ./OS/Hand rub OS/01 System boot/chapter 02.md
-        - chapter 03: ./OS/Hand rub OS/01 System boot/chapter 03.md
-        - chapter 04: ./OS/Hand rub OS/01 System boot/chapter 04.md
-  - 演稿:
-    - 操作系统实践探究 ———— 系统引导: ./Lecture/操作系统实践探究.md
-    - 语义分析: ./Lecture/语义分析.md
-  
-  - 计算机图形学:
-    - README: ./Computer Graphics/README.md
-
   - docker:
     - README: ./Docker/README.md
     - demo: ./Docker/docker_run_nodejs.md
+  - writtings:
+    - README: ./Writtings/README.md
+
 theme:
   name: material
   palette:
     - scheme: default # 日间模式
-      primary: light green # 上方的
+      primary: light-green # 上方的
       accent: orange # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
